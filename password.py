@@ -1,7 +1,6 @@
 #import package
 from codecs import encode,decode
 
-
 #create functions for encoding/decoding
 def e_rot13(s):
     return encode(s,'rot13')
